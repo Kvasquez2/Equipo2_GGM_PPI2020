@@ -1,0 +1,21 @@
+.dien{ 
+    display: flex;
+    width: 55px;
+     width: 30;
+    height: 30;
+    border-radius: 40px;
+}
+
+.entre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(34, 33, 33);
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    }
+    .letras{
+      text-align: center;
+    }
