@@ -13,3 +13,11 @@
    height: 10;
    border-radius: 60px;
  }
+ .pa{
+    background:( rgb(248, 250, 108));
+    text-align: center;
+    color:black;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+ }
