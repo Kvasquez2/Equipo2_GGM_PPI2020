@@ -9,31 +9,32 @@ import { Link } from "react-router-dom";
 function Market (params) {
     return (
     <div>
-    <div className="divicion">
-    <div><Link to="/Mercador">
+        <center><div className="con"><Link to="/Mercador">
+        <h1>SUPERMERCADO</h1>
     <img className="marcontainer" src= {mercado} />
-    <p>superomercado</p>
     </Link>
+    </div></center>
+    <div className="divicion">
+    <div className="con1">
+    <h1>variedades</h1>
+    <img className="marcontainer" src= {variedad} />
     </div>
-    <div>
+    <div className="con2">
+    <h1>canicerias</h1>
     <img className="marcontainer" src= {carniceria} />
-    <p>canicerias</p>
     </div>
     </div>
     <div className="divicion">
-    <div>
+    <div className="con3">
+    <h1>panaderias</h1>
     <img className="marcontainer" src= {panaderia} />
-    <p>panaderias</p>
     </div>
-    <div>
+    <div className="con4">
+    <h1>comidas rapidas</h1>
     <img className="marcontainer" src= {comidas} />
-    <p>comidas rapidas</p>
     </div>
     </div>
-    <center><div className="cente">
-    <img className="marcontainer" src= {variedad} />
-    <p>variedades</p>
-    </div></center>
+    
     <div className="letras">
                 <h2>Descubre Uscull</h2>
                 <p>Quienes Somos</p>

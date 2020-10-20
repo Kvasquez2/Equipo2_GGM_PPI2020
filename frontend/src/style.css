@@ -1,0 +1,89 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  .boton{
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    padding: 0 10px;  
+    border: 1px solid #eee;
+    margin: 5px 5px;
+    border-radius: 5px;
+    background-color: #c0b0b0 ;
+  }
+  .b{
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgb(51, 50, 50);
+    border-radius: 5px;
+  }
+  .tra{ 
+    display: block;
+    width: 40px;
+     width: 30;
+    height: 30;
+    
+}
+.que{
+        background-color: #f38181;
+        font-family:  cursive;
+        text-align: center;
+        color:black;
+        height: 200px;
+        width: 200px;
+        border-radius: 40px;
+ }
+ .te{
+    text-align: left;
+}
+  
+  .ba{
+    
+    width: 200px;
+    height: 50px;
+  }
+  .be{
+    border: 1px solid rgb(255, 255, 255);
+    width: 200px;
+    height: 10 0px;
+  }
+  
+  .bi{
+    
+    width: 200px;
+    height: 20px;
+  }
+  .bo{
+    background-color: #b98ae6;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .bu{
+    background-color: #f5da60;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .bb{
+    background-color: #8ae6da;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .bien{
+    display: block;
+    width: 200px;
+   height: 200px;
+   border-radius: 100px;
+ }
+ .fondo{
+   width: 100%;
+ }

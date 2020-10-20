@@ -9,15 +9,13 @@ function AppNavegador(params) {
     return(
         <div >
            
-            <div className="entre">
-     <Link to="/">
-     <img className="dien" src= {casa} />
-     </Link>
-     <img className="dien" src= {planeta} />
-     <img className="dien" src= {carro} />
-     <img className="dien" src= {tuerca} />
-     </div>
-    </div>
+         <div className="entre">
+             <Link to="/Principal"><img className="dien" src= {casa} /> </Link>
+           <img className="dien" src= {planeta} />
+           <Link to="/Carro"><img className="dien" src= {carro} /> </Link>
+ <img className="dien" src= {tuerca} />
+ </div>
+</div> 
     
 
     );

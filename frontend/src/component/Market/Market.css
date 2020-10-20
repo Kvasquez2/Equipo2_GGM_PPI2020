@@ -2,9 +2,8 @@
 
  .marcontainer{
     display: block;
-    width: 50px;
-    width: 10;
-   height: 10;
+    max-width: 50px;
+    max-height: 50px;
    border-radius: 60px;
  }
  .divicion{
@@ -25,3 +24,54 @@
     .letras{
       text-align: center;
     }
+    .con{
+      display: flex;
+      background-color:rgb(125, 192, 255);
+      width: 100%;
+      max-width: 500px;
+      height: 100%;
+      max-height: 100px;
+      border-radius: 10px;
+     
+    }
+    .con1{
+      display: flex;
+      background-color: rgb(245, 169, 192);
+      width: 100%;
+      max-width: 200px;
+      height: 100%;
+      max-height: 200px;
+      border-radius: 10px;
+     
+    }
+    .con2{
+      display: flex;
+      background-color: rgb(187, 155, 248);
+      width: 100%;
+      max-width: 200px;
+      height: 100%;
+      max-height: 200px;
+      border-radius: 10px;
+     
+    }
+    .con3{
+      display: flex;
+      background-color: rgb(245, 169, 192);
+      width: 100%;
+      max-width: 200px;
+      height: 100%;
+      max-height: 200px;
+      border-radius: 10px;
+     
+    }
+    .con4{
+      display: flex;
+      background-color: rgb(187, 155, 248);
+      width: 100%;
+      max-width: 200px;
+      height: 100%;
+      max-height: 200px;
+      border-radius: 10px;
+     
+    }
+
