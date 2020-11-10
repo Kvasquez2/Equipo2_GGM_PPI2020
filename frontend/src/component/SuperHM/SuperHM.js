@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Info(params) {
     return(
         <div>
-    <img className="atra" src= {Atras} />
+    <Link to="/Mercador"><img className="atra" src= {Atras} /></Link>
     <center>
     <h1>Supermercado HM</h1>
     <div className="ba"/>

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Queso(params) {
     return(
         <div>
-         <img className="tra" src= {Atras} />
+        <Link to="/Info"><img className="tra" src= {Atras} /></Link>
          <center>
                <h1>Supermercado HM</h1>
          </center>
