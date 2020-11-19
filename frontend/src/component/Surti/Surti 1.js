@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 function Info(params) {
     return(
         <div>
-    <Link to="/Mercador"><img className="atra" src= {Atras} /></Link>
+    <Link to="/Mercador2"><img className="atra" src= {Atras} /></Link>
     <center>
-    <h1>Supermercado HM</h1>
+    <h1>LA Estrella</h1>
     <div className="ba"/>
-    <Link to="/Queso"><p class="hm">Queso</p></Link>
-     <p class="hm">leche</p>
-     <p class="hm">Gaseosa</p>
+    <Link to="/Cuaderno" className="linea"><p class="hm">Cuaderno</p></Link>
+     <p class="hm">Lapiz</p>
+     <p class="hm">Borrador</p>
      </center>
      <div className="ba"/>
     </div>

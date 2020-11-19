@@ -7,7 +7,7 @@ function SuperHM (params) {
     return (
     <div>
         <div>
-        <Link to="/Principal"><img className="atras" src= {Atras} /></Link>
+        <Link to="/Principal" ><img className="atras" src= {Atras} /></Link>
     <center><div>
     <img className="merca" src= {merca} />
     <p className="pa">Supermercado</p>

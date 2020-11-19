@@ -12,9 +12,9 @@ function Queso(params) {
          </center>
          <div className="ba"/>
          <center> <div className="que">
-         <img c src= {queso} />
+         <img c src= {queso}/><h3>Queso</h3>
          </div></center>
-         <center><h2>valor: 2.300 </h2></center>
+         <center><h2>valor: $2.300 </h2></center>
          <center><Link to="/Carro"><button className="bu">Añadir a carrito</button></Link></center>
        </div>
     );

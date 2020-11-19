@@ -14,6 +14,14 @@ import Carro from "../Pagina/Carro"
 import Tiempo from "../Pagina/Tiempo"
 import Gra from "../Pagina/Gra"
 import Surti from "./Surti/Surti"
+import Surti1 from "./Surti/Surti 1"
+import Surti2 from "./Surti/Surti 2"
+import Surti3 from "./Surti/Surti 3"
+import Pan from "./Comida/Pan"
+import Cuaderno from "./Comida/Cuaderno"
+import Tocino from "./Comida/Tocino"
+import Taco from "./Comida/Taco"
+
 function App() {
   return (
     <BrowserRouter>
@@ -34,6 +42,13 @@ function App() {
         <Route exact path="/Tiempo" component={Tiempo} />
         <Route exact path="/Gra" component={Gra } />
         <Route exact path="/Surti" component={Surti } />
+        <Route exact path="/Surti1" component={Surti1 } />
+        <Route exact path="/Surti2" component={Surti2 } />
+        <Route exact path="/Surti3" component={Surti3 } />
+        <Route exact path="/Pan" component={Pan } />
+        <Route exact path="/Cuaderno" component={Cuaderno } />
+        <Route exact path="/Tocino" component={Tocino } />
+        <Route exact path="/Taco" component={Taco } />
         </Layout>
       </Switch>
       

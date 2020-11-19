@@ -10,7 +10,7 @@ function Info(params) {
     <center>
     <h1>Supermercado HM</h1>
     <div className="ba"/>
-    <Link to="/Queso"><p class="hm">Queso</p></Link>
+    <Link to="/Queso" className="linea"><p class="hm">Queso</p></Link>
      <p class="hm">leche</p>
      <p class="hm">Gaseosa</p>
      </center>

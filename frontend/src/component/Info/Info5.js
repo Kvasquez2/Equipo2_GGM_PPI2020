@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Info5(params) {
     return(
         <div><center>
-     <Link to="/Info">
+     <Link to="/Surti2"  className="linea">
      <p class="in">Tacos</p>
      </Link>
      <p class="in">Pizza</p>
