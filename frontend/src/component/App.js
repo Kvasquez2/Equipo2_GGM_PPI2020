@@ -13,6 +13,7 @@ import Queso from "../Pagina/Queso"
 import Carro from "../Pagina/Carro"
 import Tiempo from "../Pagina/Tiempo"
 import Gra from "../Pagina/Gra"
+import Surti from "./Surti/Surti"
 function App() {
   return (
     <BrowserRouter>
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/Carro" component={Carro} />
         <Route exact path="/Tiempo" component={Tiempo} />
         <Route exact path="/Gra" component={Gra } />
+        <Route exact path="/Surti" component={Surti } />
         </Layout>
       </Switch>
       

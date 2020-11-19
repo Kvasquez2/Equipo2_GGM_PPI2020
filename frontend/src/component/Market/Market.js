@@ -9,26 +9,29 @@ import { Link } from "react-router-dom";
 function Market (params) {
     return (
     <div>
+        
         <center><div className="con">
-        <h1><Link to="/Mercador"className="linea">SUPERMERCADO</Link></h1>
+        <center><h1><Link to="/Mercador"className="linea">SUPERMERCADO</Link></h1></center>
     <img className="marcontainer" src= {mercado} />
     
     </div></center>
+    <div className="ba"/>
     <div className="divicion">
     <Link to="/Mercador2"className="linea"><div className="con1">
     <h1>variedades</h1>
     <img className="marcontainer" src= {variedad} />
     </div></Link>
-    <Link to="/Mercador3" className="linea"><div className="con2">
-    <h1>canicerias</h1>
+   <div className="con2">
+   <Link to="/Mercador3" className="linea"><h1>canicerias</h1></Link> 
     <img className="marcontainer" src= {carniceria} />
-    </div></Link> 
+    </div>
     </div>
     <div className="divicion">
     <Link to="/Mercador4" className="linea"><div className="con3">
     <h1>panaderias</h1>
     <img className="marcontainer" src= {panaderia} />
     </div></Link> 
+    <div className="ba"/>
     <Link to="/Mercador5" className="linea"><div className="con4">
     <h1>comidas rapidas</h1>
     <img className="marcontainer" src= {comidas} />
