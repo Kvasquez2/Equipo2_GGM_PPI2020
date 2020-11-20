@@ -29,7 +29,7 @@
       display: flex;
       background-color:rgb(125, 192, 255);
       width: 100%;
-      max-width: 550px;
+
       height: 80px;
       border-radius: 10px;
     }
@@ -96,4 +96,16 @@
       .con3{width: 300px;}
       .con4{width: 300px;}
      .divicion{padding: 0 0px; }
+  }
+  @media(
+      min-width: 414px
+    )
+    {
+
+      .con{width: 700px;}
+      .con1{width: 300px;}
+      .con2{width: 300px;}
+      .con3{width: 300px;}
+      .con4{width: 300px;}
+     .divicion{padding: 0 300px; }
   }
