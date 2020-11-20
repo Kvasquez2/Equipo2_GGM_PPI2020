@@ -22,10 +22,10 @@ function Market (params) {
     <img className="marcontainer" src= {variedad} />
     </div></Link></center>
     <div className="ba"/>
-    <div className="con2">
-   <Link to="/Mercador3" className="linea"><h1>canicerias</h1></Link> 
+    <center><div className="con2">
+    <Link to="/Mercador3" className="linea"><h1>canicerias</h1></Link> 
    <img className="marcontainer" src= {carniceria} />
-    </div>
+    </div></center>
     </div>
     <div className="ba"/>
     <div className="divicion">
