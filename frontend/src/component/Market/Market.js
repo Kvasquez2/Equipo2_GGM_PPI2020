@@ -17,27 +17,27 @@ function Market (params) {
     </div></center>
     <div className="ba"/>
     <div className="divicion">
-    <Link to="/Mercador2"className="linea"><div className="con1">
+    <center><Link to="/Mercador2"className="linea"><div className="con1">
     <h1>variedades</h1>
     <img className="marcontainer" src= {variedad} />
-    </div></Link>
+    </div></Link></center>
     <div className="ba"/>
-   <div className="con2">
-   <center><Link to="/Mercador3" className="linea"><h1>canicerias</h1></Link> </center>
+    <div className="con2">
+   <Link to="/Mercador3" className="linea"><h1>canicerias</h1></Link> 
    <img className="marcontainer" src= {carniceria} />
     </div>
     </div>
     <div className="ba"/>
     <div className="divicion">
-    <Link to="/Mercador4" className="linea"><div className="con3">
+    <center><Link to="/Mercador4" className="linea"><div className="con3">
     <h1>panaderias</h1>
     <img className="marcontainer" src= {panaderia} />
-    </div></Link> 
+    </div></Link> </center>
     <div className="ba"/>
-    <Link to="/Mercador5" className="linea"><div className="con4">
+    <center><Link to="/Mercador5" className="linea"><div className="con4">
     <h1>comidas rapidas</h1>
     <img className="marcontainer" src= {comidas} />
-    </div></Link> 
+    </div></Link></center>
     </div>
     
     <div className="letras">
