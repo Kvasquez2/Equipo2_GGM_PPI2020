@@ -6,12 +6,13 @@ import panaderia from "../../imagenes/Imagen12.png"
 import comidas from "../../imagenes/Imagen13.png"
 import variedad from "../../imagenes/Imagen14.png"
 import { Link } from "react-router-dom";
+import Fondo from "../../imagenes/100.jpg"
 function Market (params) {
     return (
-    <div>
-        
+    <div className="fondo">
+        <div className="ba"/>
         <center><div className="con">
-        <center><h1><Link to="/Mercador"className="linea">SUPERMERCADO</Link></h1></center>
+        <center><h1><Link to="/Mercador"className="linea">Supermercado</Link></h1></center>
     <img className="marcontainer" src= {mercado} />
     
     </div></center>
@@ -23,7 +24,7 @@ function Market (params) {
     </div></Link></center>
     <div className="ba"/>
     <center><div className="con2">
-    <Link to="/Mercador3" className="linea"><h1>canicerias</h1></Link> 
+    <Link to="/Mercador3" className="linea"><h1>carnicerias</h1></Link> 
    <img className="marcontainer" src= {carniceria} />
     </div></center>
     </div>

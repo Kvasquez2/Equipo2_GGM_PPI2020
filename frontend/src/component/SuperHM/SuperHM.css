@@ -19,3 +19,8 @@
     width: 200px;
     height: 30px;
   }
+  .fondo{
+    width: 100%;
+    background-repeat: no-repeat;
+    background: url(../../imagenes/100.jpg);
+  }

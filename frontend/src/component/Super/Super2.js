@@ -5,7 +5,7 @@ import Atras from "../../imagenes/Imagen51.png"
 import { Link } from "react-router-dom";
 function Super2 (params) {
     return (
-    <div>
+        <div className="fondo">
         <div>
         <Link to="/Principal"><img className="atras" src= {Atras} /></Link>
     <center><div>

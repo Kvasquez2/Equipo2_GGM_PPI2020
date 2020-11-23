@@ -14,9 +14,10 @@ function Login() {
   <center>
   <div className="ba"/>
       <input
+        name="email"
         type="email"
         id="inputEmail"
-        class="b"
+        class="b2"
         placeholder="Email address"
         required=""
         autofocus=""
@@ -27,7 +28,7 @@ function Login() {
       <input
         type="password"
         id="inputPassword"
-        class="b"
+        class="b2"
         placeholder="Password"
         required=""
       />
@@ -39,9 +40,9 @@ function Login() {
       <button class="boton" type="submit">
         Inciar Sesión
       </button></Link>
-      <button class="boton" type="submit">
+      <Link to="/Registrar"><button class="boton" type="submit">
         Registrarse
-      </button></center>
+      </button></Link></center>
       <p class="mt-5 mb-3 text-muted"></p>
     </form>
   );

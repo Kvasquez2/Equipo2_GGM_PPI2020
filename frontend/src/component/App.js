@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Login from "../Pagina/Login"
+import Registrar from "../Pagina/Registro"
 import Principal from "../Pagina/Principal";
 import Mercador from "../Pagina/Mercador";
 import Mercador2 from "../Pagina/Mercador2";
@@ -21,6 +22,7 @@ import Pan from "./Comida/Pan"
 import Cuaderno from "./Comida/Cuaderno"
 import Tocino from "./Comida/Tocino"
 import Taco from "./Comida/Taco"
+import Buscar from "../Pagina/Buscar"
 
 function App() {
   return (
@@ -29,6 +31,7 @@ function App() {
     
       <Switch>
         <Route exact path="/" component={Login} />
+        <Route exact path="/Registrar" component={Registrar} />
         <Layout>
         <Route exact path="/Principal" component={Principal} />
         <Route exact path="/Mercador" component={Mercador} />
@@ -36,19 +39,20 @@ function App() {
         <Route exact path="/Mercador3" component={Mercador3} />
         <Route exact path="/Mercador4" component={Mercador4} />
         <Route exact path="/Mercador5" component={Mercador5} />
-        <Route exact path="/Info" component={HM} />
-        <Route exact path="/Queso" component={Queso} />
-        <Route exact path="/Carro" component={Carro} />
-        <Route exact path="/Tiempo" component={Tiempo} />
-        <Route exact path="/Gra" component={Gra } />
-        <Route exact path="/Surti" component={Surti } />
-        <Route exact path="/Surti1" component={Surti1 } />
-        <Route exact path="/Surti2" component={Surti2 } />
-        <Route exact path="/Surti3" component={Surti3 } />
+        <Route exact path="/Info" component={HM}/>
+        <Route exact path="/Queso" component={Queso}/>
+        <Route exact path="/Carro" component={Carro}/>
+        <Route exact path="/Tiempo" component={Tiempo}/>
+        <Route exact path="/Gra" component={Gra}/>
+        <Route exact path="/Surti" component={Surti}/>
+        <Route exact path="/Surti1" component={Surti1}/>
+        <Route exact path="/Surti2" component={Surti2}/>
+        <Route exact path="/Surti3" component={Surti3}/>
         <Route exact path="/Pan" component={Pan } />
-        <Route exact path="/Cuaderno" component={Cuaderno } />
-        <Route exact path="/Tocino" component={Tocino } />
-        <Route exact path="/Taco" component={Taco } />
+        <Route exact path="/Cuaderno" component={Cuaderno}/>
+        <Route exact path="/Tocino" component={Tocino}/>
+        <Route exact path="/Taco" component={Taco}/>
+        <Route exact path="/Buscar" component={Buscar}/>
         </Layout>
       </Switch>
       

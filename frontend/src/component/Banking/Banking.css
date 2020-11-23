@@ -12,8 +12,7 @@
   background-color: #fff;
 }
 .pay{
-    background:linear-gradient( rgb(187, 155, 248), rgb(245, 169, 192),rgb(125, 192, 255));
-    font-family:  cursive;
+    background-color: rgb(0, 183, 255);
     text-align: center;
     color:black;
     height: 40px;
@@ -29,9 +28,8 @@
 
 
 .detailstext{
-    background:linear-gradient( rgb(187, 155, 248), rgb(245, 169, 192),rgb(125, 192, 255));
-    font-family:  cursive;
-    text-align: center;
+    background-color: rgb(0, 183, 255);
+    text-align: center; 
     color:black;
     height: 40px;
     width: 100px;

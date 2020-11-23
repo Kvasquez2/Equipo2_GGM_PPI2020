@@ -11,8 +11,8 @@ function AppNavegador(params) {
            
          <div className="entre">
              <Link to="/Principal"><img className="dien" src= {casa} /> </Link>
-           <img className="dien" src= {planeta} />
-           <Link to="/Carro"><img className="dien" src= {carro} /> </Link>
+             <Link to="/Buscar"><img className="dien" src= {planeta} /> </Link>
+             <Link to="/Carro"><img className="dien" src= {carro} /> </Link>
  <img className="dien" src= {tuerca} />
  </div>
 </div> 

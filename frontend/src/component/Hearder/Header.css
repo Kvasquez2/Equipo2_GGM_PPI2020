@@ -7,7 +7,9 @@
     border-bottom-color: #eee;
     align-items: center;
     padding: 10px;
-    background-color: #fff;
+    background-repeat: no-repeat;
+    background: url(../../imagenes/100.jpg);
+
 }
 
 
